@@ -2,7 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
+ 
 }
 
 .login-form{
@@ -10,12 +11,32 @@ display: flex;
 flex-direction: column;
 align-items: center;
 padding: 20px;
-border: 1px solid #960d0d;
+/* border: 1px solid #960d0d; */
 border-radius: 10px;
-box-shadow: 10px 10px 10px 10px yellowgreen;
+box-shadow: 10px 10px 10px 10px rgb(182, 106, 5);
+width: 400px;
+height: 400px;
+margin-left: 430px;
+margin-top: 100px;
 }
 
 .heading{
   margin-bottom: 20px;
   text-align: center;
+}
+
+input{
+  height: 30px;
+}
+
+.login{
+  height: 30px;
+  width: 100px;
+  background-color: bisque;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px rgb(182, 106, 5);
+  border: none;
+}
+label{
+  font-family: 'Courier New', Courier, monospace;
 }

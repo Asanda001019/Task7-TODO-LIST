@@ -5,6 +5,7 @@ import './App.css'
 import LandingPage from './components/landingPage'
 import Login from './components/login'
 import Register from './components/register'
+import Todo from './components/todo'
 import {BrowserRouter, Route, Routes} from "react-router-dom"
 
 function App() {
@@ -14,11 +15,16 @@ function App() {
     <>
 <BrowserRouter>
    <Routes>
-    <Route path="/" elememnt={<LandingPage/>}/>
-    <Route path="login" elememnt={<Login/>}/>
-    <Route path="register" elememnt={<Register />}/>
+    <Route path="/" element={<LandingPage/>}/>
+    <Route path="login" element={<Login/>}/>
+    <Route path="register" element={<Register />}/>
+    <Route path="todo" element={<Todo/>}/>
   </Routes>
 </BrowserRouter>
+
+{/* <Login/> */}
+
+{/* <LandingPage/> */}
     </>
   )
 }
