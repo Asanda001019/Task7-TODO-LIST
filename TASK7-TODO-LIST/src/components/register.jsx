@@ -15,12 +15,12 @@ console.log(UserName, PassWord)
   return (
     <>
       <div className='login-container'>
-        <form className='login-form' onSubmit={handleSubmit}>
+        <form className='register-form' onSubmit={handleSubmit}>
 
         <h1 className='heading'>Please Register</h1>
 
         <label>
-          Name: 
+          FirstName: 
           <input type='text'
           value={Name} onChange={(e)=>setName(e.target.value)}/>
         </label>
